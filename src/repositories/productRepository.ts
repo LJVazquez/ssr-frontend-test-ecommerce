@@ -1,7 +1,7 @@
 import { ApiProductSearch } from '@/lib/definitions';
 import { ApiProduct } from '../lib/definitions';
 
-const BASE_URL = 'https://dummyjson.com';
+const BASE_URL = process.env.DUMMY_JSON_BASE_URL;
 
 export const search = async (product: string): Promise<ApiProductSearch> => {
 	try {
