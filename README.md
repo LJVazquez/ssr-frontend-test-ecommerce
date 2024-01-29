@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## 🌟 Acerca del proyecto
 
-## Getting Started
+Esta App es parte de una prueba técnica nivel semi senior de frontend
+especializado en React y Next.js. La misma consiste en realizar un
+E-Commerce que consuma la API de productos de [Dummy Json](https://dummyjson.com/docs/products).
 
-First, run the development server:
+### 📋 Puntos principales del desafio tecnico
+
+Se debe crear una aplicación web de e-commerce que permita a los usuarios buscar productos, añadirlos al carrito y realizar la compra.
+
+La aplicación debe tener las siguientes características:
+
+- Una página principal con una barra de búsqueda que redireccionará a una página de listado con los productos encontrados.
+- Una página de detalle de cada producto, que muestre su imagen, nombre, descripción, precio y botón de añadir al carrito.
+- Una página que muestre los productos según su categoría.
+- Una página de checkout que muestre los productos seleccionados con sus precios y el total, y un formulario de pago con los datos necesarios.
+- Una página de confirmación que muestre el número de pedido.
+
+### 📋 Especificaciones técnicas del desafio
+
+![Next][next.js]
+
+[next.js]: https://img.shields.io/badge/Next-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+
+- Utilizar última version de [Next.js](https://nextjs.org/)
+- Utilizar en lo posible componentes Server Side.
+- Finalizar el proceso de compra mediante una Server Action.
+- Consumir la API de productos de DummyJson (https://dummyjson.com/docs/products).
+- Evitar usar librerías externas a Next.Js
+- Full responsive.
+
+**Plus**:
+
+- Utilizar animaciones de carga
+- Uso de layouts
+- Diseño acorde a la temática.
+
+## 🧰 Ejecutar localmente
+
+### ‼️ Prerequisitos
+
+Es necesario tener instalado:
+
+- [Npm](https://www.npmjs.com/)
+- [Node.js](https://nodejs.org/en/)
+
+Abrir la terminal en la misma carpeta donde se encuentra el descargado el proyecto y ejecutar los siguientes comandos:
 
 ```bash
+npm i
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 💻 Uso
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Como indica en las instrucciones de la prueba, la app consta de un home con un buscador de próductos y un mini listado de últimos productos.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![Screenshot 1](/screenshots/Screenshot_1.jpg)
 
-## Learn More
+Al buscar se redirige a un listado de artículos encontrados.
 
-To learn more about Next.js, take a look at the following resources:
+![Screenshot 2](/screenshots/Screenshot_2.jpg)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Al seleccionar un producto, se redirige a la vista de detalles.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![Screenshot 3](/screenshots/Screenshot_3.jpg)
 
-## Deploy on Vercel
+El checkout permite ver los productos en el carro y completar la compra.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Screenshot 4](/screenshots/Screenshot_4.jpg)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+La mayoría de los componentes que realizan fetching de datos están envueltos Suspense para mostrar un placeholder.
+
+![Screenshot 5](/screenshots/Screenshot_5.jpg)
+
+## 🎓 Sobre mi
+
+Soy desarollador full stack semi senior con 3+ años de experiencia.
+Mis tecnologías favoritas son React y Next.js 😃
+
+- [Linkedin](https://www.linkedin.com/in/lvazquez-dev/)
+- [Email](mailto:ljvazquez00@gmail.com)

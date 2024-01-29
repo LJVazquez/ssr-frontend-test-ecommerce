@@ -16,7 +16,7 @@ export default function AboutSection() {
 			<h2 className="text-2xl font-bold">Acerca de esta app</h2>
 			<p className="max-w-xl text-pretty">
 				Esta App es parte de una prueba técnica nivel semi senior de frontend
-				especializado en React y Next.js. La misma consiste de realizar un
+				especializado en React y Next.js. La misma consiste en realizar un
 				E-Commerce que consuma la API de productos de{' '}
 				<a href="https://dummyjson.com/docs/products" className="font-semibold">
 					DummyJson
