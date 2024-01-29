@@ -53,7 +53,7 @@ npm run dev
 
 ## 💻 Uso
 
-Como indica en las instrucciones de la prueba, la app consta de un home con un buscador de próductos y un mini listado de últimos productos.
+La app consta de un Home que contiene un buscador de productos en su Hero.
 
 ![Screenshot 1](/screenshots/Screenshot_1.jpg)
 
