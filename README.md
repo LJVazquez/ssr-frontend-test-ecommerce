@@ -69,7 +69,7 @@ El checkout permite ver los productos en el carro y completar la compra.
 
 ![Screenshot 4](/screenshots/Screenshot_4.jpg)
 
-La mayoría de los componentes que realizan fetching de datos están envueltos Suspense para mostrar un placeholder.
+La mayoría de los componentes que realizan fetching de datos están envueltos en un Suspense para mostrar un placeholder.
 
 ![Screenshot 5](/screenshots/Screenshot_5.jpg)
 
